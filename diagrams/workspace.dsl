@@ -5,8 +5,6 @@ workspace "Financial Risk System" "This is a simple (incomplete) example C4 mode
         configurationUser = person "Configuration User" "A regular business user who can also configure the parameters used in the risk calculations."
 
         financialRiskSystem = softwareSystem "Financial Risk System" "Calculates the bank's exposure to risk for product X." "Financial Risk System"  {
-            !docs docs
-            !adrs adrs
         }
 
         tradeDataSystem = softwareSystem "Trade Data System" "The system of record for trades of type X."
